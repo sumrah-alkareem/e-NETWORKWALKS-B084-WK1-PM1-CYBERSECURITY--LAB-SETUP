@@ -49,11 +49,8 @@ Installed and prepared Oracle VirtualBox to run the Kali Linux virtual machine.
 
 Imported and configured Kali Linux as the virtual machine for the cybersecurity lab. After the fresh setup, I took a snapshot named `my fresh kali` so I can restore the clean state at any time.
 
-<p align="center">
-  <img src="images/Snapshot.png" width="800" alt="VirtualBox Manager showing the my fresh kali snapshot">
-  <br>
-  <em>Figure 1: VirtualBox Manager with the "my fresh kali" snapshot</em>
-</p>
+<img width="1356" height="651" alt="Kali linux" src="https://github.com/user-attachments/assets/cc724f76-641f-416b-8f49-0b6445ce2b41" />
+
 
 ### 3. Configure the NAT Network
 
@@ -65,11 +62,8 @@ Created a NAT Network with the following settings:
 
 Configured the Kali Linux virtual machine to use this network.
 
-<p align="center">
-  <img src="images/Nat_Network.png" width="800" alt="VirtualBox NAT Networks settings showing NatNetwork with prefix 10.0.0.0/24">
-  <br>
-  <em>Figure 2: NAT Network settings in VirtualBox</em>
-</p>
+<img width="1366" height="768" alt="Nat Network" src="https://github.com/user-attachments/assets/8d777676-1634-4a2e-aaf1-6ea4bd8ad624" />
+
 
 ### 4. Configure the IP Address
 
@@ -82,11 +76,8 @@ Gateway: 10.0.0.1
 DNS Server: 10.0.0.1
 ```
 
-<p align="center">
-  <img src="images/Wired_Connection.png" width="800" alt="Kali Linux Wired connection IPv4 settings with manual address 10.0.0.2">
-  <br>
-  <em>Figure 3: IPv4 settings in Kali Linux (Manual, 10.0.0.2/24)</em>
-</p>
+<img width="1356" height="651" alt="Wired Connection" src="https://github.com/user-attachments/assets/2c9ea903-10a2-4382-a899-bb4b16887589" />
+
 
 Verified the network configuration using:
 
@@ -94,11 +85,8 @@ Verified the network configuration using:
 ip a
 ```
 
-<p align="center">
-  <img src="images/ip.png" width="800" alt="Terminal output of ip a showing eth0 with 10.0.0.2/24">
-  <br>
-  <em>Figure 4: <code>ip a</code> output confirming <code>eth0</code> has 10.0.0.2/24</em>
-</p>
+<img width="1356" height="651" alt="ip" src="https://github.com/user-attachments/assets/93603873-6775-47b4-bcac-8715477daf30" />
+
 
 ### 5. Enable Virtual Machine Integration
 
